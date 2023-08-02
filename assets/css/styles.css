@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  padding: 0.5rem 1rem;
+}
+.form-wrapper {
+  max-width: 480px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  background-color: #ddd;
+}
+.form-wrapper input#input-generator {
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+}
+#result-content {
+  padding: 0.5rem;
+  background-color: #eee;
+  border-radius: 0.3rem;
+}
